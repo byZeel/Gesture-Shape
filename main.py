@@ -2,7 +2,7 @@ import cv2
 from hand_tracker import HandTracker
 from shape_detector import ShapeDetector
 from utils import draw_points, show_text
-
+# hand gesture 
 
 tracker = HandTracker()
 detector = ShapeDetector()
