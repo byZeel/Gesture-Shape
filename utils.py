@@ -1,7 +1,7 @@
 import cv2
 
 def draw_points(frame, points):
-
+#
     for i in range(1, len(points)):
         cv2.line(
             frame,
