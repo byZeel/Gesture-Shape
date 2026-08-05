@@ -6,7 +6,7 @@ from utils import draw_points, show_text
 
 tracker = HandTracker()
 detector = ShapeDetector()
-
+#
 cap = cv2.VideoCapture(0)
 
 points = []
